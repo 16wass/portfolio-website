@@ -31,7 +31,7 @@ const HeroSection = () => {
         <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
         A tech enthusiast with an insatiable appetite for new challenges, 
         I am continually driven by a positive attitude and a growth mindset. 
-        My journey in information engineering at Technical University Munich 
+        My journey in information engineering at Technical University of Munich 
         has equipped me with a robust foundation in technical skills 
         and collaborative project management.
         </p>
