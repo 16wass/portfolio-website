@@ -11,6 +11,8 @@ const projectsData = [
     description: " A showcase of my skills and projects built using cutting-edge technologies. Leveraging the power of Next.js, Vercel, and Node.js, this project embodies modern web development practices to create a seamless and responsive portfolio experience.Explore my projects, skills, and experience in an intuitive interface, crafted with expertise using React.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
+    gitUrl: "https://github.com/16wass/portfolio-website",
+    previewUrl: "https://portfolio-website-cozs-wassim-mezghannis-projects.vercel.app/",
   },
   {
     id: 2,
@@ -18,6 +20,8 @@ const projectsData = [
     description: "Led a collaborative effort on a dynamic game project utilizing the LibGDX Java game library. Working closely with a teammate, we adopted pair programming techniques ,fostering a synergistic work environment where ideas were shared and problems were solved collaboratively. Leveraged Bitbucket and GitHub for efficient version control and streamlined code reviews, facilitating seamless integration of new features and bug fixes.",
     image: "/images/projects/MenuScreen.jpg",
     tag: ["All", "Game Development"],
+    gitUrl: "https://github.com/16wass/Game-project",
+    previewUrl: "https://github.com/16wass/Game-project",
   },
 ];
 
