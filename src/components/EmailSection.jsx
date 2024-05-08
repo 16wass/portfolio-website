@@ -29,10 +29,7 @@ const EmailSection = () => {
           <div className="mb-6">
             <label
               htmlFor="email"
-              className="block mb-2 text-sm font-medium text-white"
-            >
-              Your email
-            </label>
+              className="block mb-2 text-sm font-medium text-white">Your email</label>
             <input
               type="email"
               id="email"
@@ -42,10 +39,7 @@ const EmailSection = () => {
             />
           </div>
           <div className="mb-6">
-            <label
-              htmlFor="subject"
-              class="block mb-2 text-sm font-medium text-white"
-            >
+            <label htmlFor="subject" class="block mb-2 text-sm font-medium text-white">
               Subject
             </label>
             <input
