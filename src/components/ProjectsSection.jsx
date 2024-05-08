@@ -29,15 +29,12 @@ const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-
   const handleTagChange = (newTag) => {
     setTag(newTag);
   };
-
   const filteredProjects = projectsData.filter((project) =>
     project.tag.includes(tag)
   );
-
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
     animate: { y: 0, opacity: 1 },
