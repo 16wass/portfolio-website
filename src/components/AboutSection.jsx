@@ -12,56 +12,56 @@ const TAB_DATA = [
         <li>
           < div className="flex items-center">
           Java 
-          <Image src="/images/Skills logos/Java-logo.png" width={50} height={50} className="ml-2" />
+          <Image src="/images/Skills logos/Java-logo.png" width={50} height={50} alt="Java Logo" className="ml-2" />
           </div>
           </li>
         <li>
           <div className="flex items-center">
           Python
-          <Image src="/images/Skills logos/Python-logo.png" width={35} height={35} className="ml-2" />
+          <Image src="/images/Skills logos/Python-logo.png" width={35} height={35} alt="Python Logo" className="ml-2" />
           </div>
           </li>
           <li>
           <div className="flex items-center">
             React.js
-            <Image src="/images/Skills logos/React-Logo.png" width={70} height={70} className="mr-2" />
+            <Image src="/images/Skills logos/React-Logo.png" width={70} height={70} alt="React logo" className="mr-2" />
           </div>
         </li>
         <li>
           <div className="flex items-center">
           HTML, CSS , JavaScript
-          <Image src="/images/Skills logos/Html Css Js.png" width={50} height={50} className="ml-2" />
+          <Image src="/images/Skills logos/Html Css Js.png" width={50} height={50} alt="HTML, CSS , JavaScript logo" className="ml-2" />
           </div>
           </li>
         
         <li>
           <div className="flex items-center">
           Node.js
-          <Image src="/images/Skills logos/Node.js_logo.png" width={50} height={50} className="ml-2" />
+          <Image src="/images/Skills logos/Node.js_logo.png" width={50} height={50} alt="Node logo" className="ml-2" />
           </div>
           </li>
         <li>
           <div className="flex items-center">
           Express.js
-          <Image src="/images/Skills logos/Express js-logo.png" width={80} height={80} className="ml-2" />
+          <Image src="/images/Skills logos/Express js-logo.png" width={80} height={80} alt="Express logo" className="ml-2" />
           </div>
           </li>
         <li>
           <div className="flex items-center">
           MongoDB
-          <Image src="/images/Skills logos/MongoDB_Logo.svg.png" width={70} height={70} className="ml-2" />
+          <Image src="/images/Skills logos/MongoDB_Logo.svg.png" width={70} height={70} alt="Mongodb logo" className="ml-2" />
           </div>
           </li>
         <li>
           <div className="flex items-center">
           Agile Methodologies (Scrum , Kanban)
-          <Image src="/images/Skills logos/agile-method.png" width={50} height={50} className="ml-2" /> 
+          <Image src="/images/Skills logos/agile-method.png" width={50} height={50} alt="Agile logo" className="ml-2" /> 
           </div>
           </li>
         <li>
           <div className="flex items-center">
           Git/Github
-          <Image src="/images/Skills logos/Git_icon..png" width={40} height={40} className="ml-2" />
+          <Image src="/images/Skills logos/Git_icon..png" width={40} height={40} alt="Git " className="ml-2" />
           </div>
           </li>
       </ul>
