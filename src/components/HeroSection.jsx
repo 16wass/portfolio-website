@@ -18,8 +18,6 @@ const HeroSection = () => {
           </span>
           <TypeAnimation
             sequence={[
-              "Wassim",
-              1000,
               "Computer science student",
               1000,
               "Programmer",
