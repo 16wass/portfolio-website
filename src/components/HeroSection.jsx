@@ -10,7 +10,7 @@ const HeroSection = () => {
         <h1 className="text-white max-w-2xl mb-4 lg:text-6xl text-4xl font-extrabold">
           <br></br>
           <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-            Hello, I'm{" "}
+            Hello, I am{" "}
           </span>{" "}
           <br></br>
           <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-blue-400 to-pink-600">
