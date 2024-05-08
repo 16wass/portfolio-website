@@ -12,7 +12,7 @@ const TAB_DATA = [
         <li>
           < div className="flex items-center">
           Java 
-          <Image src="/images/Skills logos/Java-logo.png" width={50} height={50} alt="Java Logo" className="ml-2" />
+          <Image src="/images/Skills logos/java-logo.png" width={50} height={50} alt="Java Logo" className="ml-2" />
           </div>
           </li>
         <li>
