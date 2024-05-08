@@ -9,14 +9,61 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Python</li>
-        <li>Java </li>
-        <li>HTML, CSS </li>
-        <li>JavaScript</li>
-        <li>React.js</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>MongoDB</li>
+        <li>
+          < div className="flex items-center">
+          Java 
+          <Image src="/images/Skills logos/Java-logo.png" width={50} height={50} className="ml-2" />
+          </div>
+          </li>
+        <li>
+          <div className="flex items-center">
+          Python
+          <Image src="/images/Skills logos/Python-logo.png" width={35} height={35} className="ml-2" />
+          </div>
+          </li>
+          <li>
+          <div className="flex items-center">
+            React.js
+            <Image src="/images/Skills logos/React-Logo.png" width={70} height={70} className="mr-2" />
+          </div>
+        </li>
+        <li>
+          <div className="flex items-center">
+          HTML, CSS , JavaScript
+          <Image src="/images/Skills logos/Html Css Js.png" width={50} height={50} className="ml-2" />
+          </div>
+          </li>
+        
+        <li>
+          <div className="flex items-center">
+          Node.js
+          <Image src="/images/Skills logos/Node.js_logo.png" width={50} height={50} className="ml-2" />
+          </div>
+          </li>
+        <li>
+          <div className="flex items-center">
+          Express.js
+          <Image src="/images/Skills logos/Express js-logo.png" width={80} height={80} className="ml-2" />
+          </div>
+          </li>
+        <li>
+          <div className="flex items-center">
+          MongoDB
+          <Image src="/images/Skills logos/MongoDB_Logo.svg.png" width={70} height={70} className="ml-2" />
+          </div>
+          </li>
+        <li>
+          <div className="flex items-center">
+          Agile Methodologies (Scrum , Kanban)
+          <Image src="/images/Skills logos/agile-method.png" width={50} height={50} className="ml-2" /> 
+          </div>
+          </li>
+        <li>
+          <div className="flex items-center">
+          Git/Github
+          <Image src="/images/Skills logos/Git_icon..png" width={40} height={40} className="ml-2" />
+          </div>
+          </li>
       </ul>
     ),
   },
@@ -24,9 +71,16 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Bachelor in information engineering from Technical University of Munich (TUM)</li>
-      </ul>
+      <div className="flex">
+        <div>
+          <ul className="list-disc pl-2">
+            <li>Bachelor in information engineering from Technical University of Munich (TUM)</li>
+          </ul>
+        </div>
+        <div>
+          <Image src="/images/TUM_Logo.png" width={300} height={300} />
+        </div>
+      </div>
     ),
   },
   {
@@ -34,8 +88,10 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>
+          
+          Agile with Atlassian Jira -Scrum -Kanban</li>
+        <li>Full Stack Open course ( University of Helsinki and Houston Inc ) </li>
       </ul>
     ),
   },
@@ -58,9 +114,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white texxt-base md:text-lg">
-            I am a  web developer with a passion for creating
+            I am a  computer science student with a passion for creating
             interactive and responsive web applications. I have experience
-            working with  Python , Java , JavaScript, React, Redux, Node.js, Express, HTML, CSS, and Git. 
+            working with  Python , Java , JavaScript, React, Redux, Node.js, Express, HTML, CSS, and Git.
+            I have knowledge in Agile methodologies such as Scrum and Kanban for project management. 
             I am a quick learner and I am always looking to expand my knowledge and skill set.
             I am a team player and I am excited to work with others to create amazing applications.
           </p>
