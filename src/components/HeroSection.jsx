@@ -48,7 +48,7 @@ const HeroSection = () => {
           <button className="m-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 px-1 py-1  text-white rounded-full" 
           onClick={() => {
               const link = document.createElement('a');
-              link.href = 'https://drive.google.com/file/d/1tpmTdpJH5d7bCTjGncXazgcogM1o14Hs/view?usp=sharing'; 
+              link.href = 'https://drive.google.com/file/d/1188waeto-N03g78gJCiXpyT1-fJlinY_/view?usp=sharing'; 
               link.setAttribute('download', 'cv -wassim mezghanni.pdf'); 
                document.body.appendChild(link);
               link.click();
